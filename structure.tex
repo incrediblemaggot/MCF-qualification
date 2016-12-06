@@ -20,11 +20,16 @@
 
 \usepackage{eso-pic} % Required for specifying an image background in the title page
 
+\usepackage{color}
 %----------------------------------------------------------------------------------------
 %	MAIN TABLE OF CONTENTS
 %----------------------------------------------------------------------------------------
 
 \usepackage{titletoc} % Required for manipulating the table of contents
+\addto\captionsenglish{% Replace "english" with the language you use
+  \renewcommand{\contentsname}%
+    {Sommaire}%
+}
 
 \contentsmargin{0cm} % Removes the default margin
 % Chapter text styling
